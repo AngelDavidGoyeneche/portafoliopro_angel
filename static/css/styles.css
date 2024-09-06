@@ -53,6 +53,48 @@ h2 {
     color: #41C9E2;
 }
 
+.contact {
+    background: #CAF4FF;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: grid;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    max-width: 500px; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #070a91;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    max-width: 500px; 
+    padding: 10px;
+    background-color: #008DDA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .btn {
     display: inline-block;
     margin-top: 10px;
@@ -106,8 +148,8 @@ a {
 }
 
 a:hover, a:active {
-    background-color: #387bc9;
-    color: #2f31d4;
+    background-color: #fff;
+    color: #008DDA;
 }
 
 footer {
@@ -120,7 +162,6 @@ footer {
     width: 100%;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     nav ul {
         display: flex;
